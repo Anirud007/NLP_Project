@@ -1,6 +1,6 @@
 # App Review Sentiment Analysis Dashboard
 
-This project provides a Streamlit dashboard for analyzing sentiment and exploring insights from app reviews. It visualizes key metrics, sentiment trends, and common topics mentioned in user feedback.
+This project provides a Streamlit dashboard for analysing sentiment and exploring insights from app reviews. It visualises key metrics, sentiment trends, and common topics mentioned in user feedback.
 
 ## Features
 
@@ -53,16 +53,11 @@ This file should contain columns like `at` (timestamp), `score` (rating), `revie
     ```bash
     pip install -r requirements.txt
     ```
-4.  **Download NLTK corpora (needed for TextBlob):**
-    Run the following command in your terminal after activating the virtual environment:
-    ```bash
-    python -m textblob.download_corpora
-    ```
 
 ## Running the App
 
 1.  Make sure your virtual environment is activated.
-2.  Ensure the data file (`bq-results-20250422-112433-1745321081904.csv`) is in the same directory as `app_dashboard.py`.
+2.  Ensure the data file (`dataset.csv`) is in the same directory as `app_dashboard.py`.
 3.  Run the Streamlit application:
     ```bash
     streamlit run app_dashboard.py
