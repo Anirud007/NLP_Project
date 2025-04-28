@@ -27,8 +27,6 @@ This project provides a Streamlit dashboard for analyzing sentiment and explorin
 
 The dashboard uses app review data provided in a CSV file:
 
-*   `bq-results-20250422-112433-1745321081904.csv`
-
 This file should contain columns like `at` (timestamp), `score` (rating), `review` (text), `sentiment` (optional, will be calculated if missing), `appVersion` (optional), and `label` (optional).
 
 ## Setup
